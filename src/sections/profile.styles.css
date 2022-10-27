@@ -1,0 +1,14 @@
+.profile-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#twitter {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+#slack {
+  display: none;
+}

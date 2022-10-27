@@ -1,0 +1,42 @@
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 3rem;
+  position: absolute;
+  top: 90%;
+}
+
+.zuri-text{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.red-dot {
+  background-color: #E7332B;
+  border-radius: 50%;
+  padding: 3px;
+  display: inline-block;
+  margin: 2px;
+  margin-bottom: 0;
+}
+
+.hng-text {
+  color: #667085;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width:650px) {
+  .bottom-section {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    top: 80%;
+  }
+  .bs {
+    padding: 0.5rem;
+  }
+}
