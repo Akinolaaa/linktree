@@ -7,11 +7,11 @@ export default function FooterSection() {
   return (
     <>
       <Outlet />
-      <div className='bottom-section'>
+      <footer className='bottom-section'>
         <p className='bs zuri-text'>Zuri<span className='red-dot'></span>Internship</p>
         <p className='bs hng-text'>HNG Internship 9 Frontend Task</p>
         <img className='bs' src={ii4glogo} alt='i4g-logo' />
-      </div>
+      </footer>
     </>
   )
 }

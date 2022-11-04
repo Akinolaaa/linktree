@@ -17,6 +17,16 @@
       font-weight: 600;
       font-size: 36px;
     }
-    
+  }
+}
+
+@media screen and (max-width:650px) {
+  .contact-page-container {
+    height: 80vh;
+    align-items: flex-start;
+    padding-top: 3rem;
+    .sub-container{
+      padding: 1.5rem;
+    }
   }
 }
