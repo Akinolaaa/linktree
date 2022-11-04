@@ -1,6 +1,6 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import ContactPage from './routes/contact/contact.components';
+import ContactPage from './routes/contacts/contact.components';
 import Home from './routes/home/home.component';
 import FooterSection from './sections/footer.component';
 
