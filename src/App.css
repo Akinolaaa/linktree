@@ -1,33 +1,6 @@
-.app {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 2rem;
-  padding: 0 2rem;
-}
-
-.right-arrow-icon{
-  position: absolute;
-  left: 70%;
-  top: 3%;
-}
-
-.three-dot-icon{
-  position: absolute;
-  right: 10%;
-  top: 3%;
-  display: none;
-}
-
-@media screen and (max-width:650px) {
-  .app {
-    padding: 0;
-  }
-  .right-arrow-icon{
-    display: none;
-  }
-  .three-dot-icon {
-    display: block;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
 }

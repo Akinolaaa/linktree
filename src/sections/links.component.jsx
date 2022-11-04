@@ -11,6 +11,7 @@ export default function LinksSection() {
       <LinkButton id='book__python' btnTxt={'Python Books'} redirectLink='https://books.zuri.team/python-for-beginners?ref_id=Ak__'  />
       <LinkButton id='pitch' btnTxt={'Background Check for Coders'} redirectLink='https://background.zuri.team/'  />
       <LinkButton id='book__design' btnTxt={'Design Books'} redirectLink='https://books.zuri.team/design-rules'  />
+      <LinkButton id='book__design' btnTxt={'Contact Me'} redirectLink='/contact' />
     </section>
   )
 }
