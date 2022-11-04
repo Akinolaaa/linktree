@@ -12,6 +12,7 @@ export default function LinksSection() {
       <LinkButton id='book__python' btnTxt={'Python Books'} redirectLink='https://books.zuri.team/python-for-beginners?ref_id=Ak__'  />
       <LinkButton id='pitch' btnTxt={'Background Check for Coders'} redirectLink='https://background.zuri.team/'  />
       <LinkButton id='book__design' btnTxt={'Design Books'} redirectLink='https://books.zuri.team/design-rules'  />
+      {/* Style class 'link-btn from src/sections/link.styles.css'. Note: didn't work with LinkButton component in production */}
       <Link className='link-btn' to='/contact'>
         Contact me
       </Link>
