@@ -22,9 +22,21 @@
 
 @media screen and (max-width:650px) {
   .contact-page-container {
-    height: 80vh;
+    height: 110vh;
     align-items: flex-start;
     padding-top: 3rem;
+    margin-bottom: 2rem;
+    .sub-container{
+      padding: 1.5rem;
+    }
+  }
+}
+@media screen and (max-width:650px) {
+  .contact-page-container {
+    height: 100vh;
+    align-items: flex-start;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
     .sub-container{
       padding: 1.5rem;
     }

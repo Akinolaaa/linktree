@@ -14,7 +14,6 @@ export default function ContactFormInput({id, label, placeHolder, textArea}) {
         type='text' id={id} placeholder={placeHolder}
         name={label} rows="5"></textArea>
       }
-      
     </div>
   )
 }
